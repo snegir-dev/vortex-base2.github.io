@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://snegir-dev.github.io/batches.github.io",
+    "homepage": "https://snegir-dev.github.io/vortex-base2.github.io",
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist",
