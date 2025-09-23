@@ -1,0 +1,35 @@
+﻿.supplier-card {
+    border-radius: 10px;
+    background: #222328;
+    padding: 15px;
+
+    .supplier-card-content {
+        .supplier-card-content-item {
+            color: #d7d7d7;
+
+            &:nth-child(1) {
+                font-size: 18px;
+                font-weight: 600;
+            }
+
+            &:nth-child(2) {
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            &:nth-child(3) {
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .btn-open {
+        color: #d7d7d7;
+    }
+
+    .avatar {
+        min-width: 80px;
+        min-height: 80px;
+    }
+}

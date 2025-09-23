@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+body {
+    background: #0b0b0d;
+    padding: 40px;
+
+    @media screen and (width <= 480px) {
+        padding: 10px;
+    }
+}
+
+.ant-segmented-thumb {
+    background: #3a3a46 !important;
+}
+
+.ant-segmented {
+    background: #131315;
+
+    .ant-segmented-item {
+        width: 100%;
+        color: white;
+
+        &:hover {
+            color: white !important;
+        }
+    }
+
+    .ant-segmented-item-selected {
+        background: #3a3a46;
+    }
+}

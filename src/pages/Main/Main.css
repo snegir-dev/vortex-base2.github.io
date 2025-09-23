@@ -1,0 +1,14 @@
+﻿.main-page {
+    .card {
+        width: 100%;
+        flex: calc(33% - 40px);
+
+        @media screen and (width <= 1440px) {
+            flex: calc(50% - 40px);
+        }
+
+        @media screen and (width <= 768px) {
+            flex: 100%;
+        }
+    }
+}
